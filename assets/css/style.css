@@ -79,7 +79,6 @@ body {
     line-height: 2rem;
     margin-top: -3rem;
     z-index: 999;
-    width: 80%
 }
 
 .img-caption1 {
@@ -95,31 +94,11 @@ body {
     padding-top: 12px;
 }
 
-/* --------------- contact.htl specific rules --------------*/
-.contact-form {
-    margin-bottom: 20px;
-}
-
-input {
-    width: 100%;
-    height: 24px;
-    margin-bottom: 18px;
-    border: 1px solid #cccccc;
-}
-
-.input-msg {
-    height: 140px;
-    
-}
-
+/* --------------- contact.html specific rules --------------*/
 .input-submit {
     background-color: #4aaaa5;
     color: #ffffff;
     font-size: 18px;
-    width: 100px;
-    height: 40px;
-    padding: auto 20px;
-    text-align: center;
     cursor: pointer;
 }
 
