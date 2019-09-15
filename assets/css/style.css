@@ -5,74 +5,55 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 0;
-    padding: 0;
-    width:100%;
-    height: 100%;
+    position: relative;
 }
 
 /* ------------- Navbar ----------- */
+.my-nav {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 .my-name {
     background-color: #4aaaa5;
     color: #ffffff !important;
-    font-size: 30px;;
+    font-size: 2rem;
     font-weight: bold;
-    height: 100%;
-    padding: 0 25px;
+    line-height: 4rem;
+    padding: 0 1rem;
 }
 
 /* ------------- Main Content Area  ----------- */
 .main-content {
-    display: block;
-    clear: both;
+
     background-color: #ffffff;
-    width: 960px;
-    margin: 15px auto;
-    overflow: auto;
     border: 1px solid #cccccc;
-    margin-bottom: 90px; /* end above the sticky footer */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 5rem;
 }
 
-/* ------------- Section and Section Header ----------- */
-section {
-    margin: 15px auto;
-    padding: 0 30px;
+   /* ------------- Page Title  ----------- */
+.page-title {
+    border-bottom: 1px solid #eeeeee;
+    padding: 1rem;
 }
 
-section h1 {
-    color: #4aaaa5;
-}
-
-.main-hr {
-    background-color: #efefef;
-}
-
-/* ------------------ Article -----------------*/
-article {
-    margin: 25px 0 0 0;
+.page-content {
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 /* ------------- Footer ----------- */
 
-footer {
+.page-footer {
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 100%;
-    display: block;
-    clear: both;
     border-top: 8px solid #4aaaa5;
-    margin-top: 20px;
-}
-
-.footer-content {
     background-color: #666666;
-    text-align: center;
     color: #ffffff;
-    width: 100%;
-    font-size: 12px;
-    padding: 35px 0 15px 0;
-} 
+    font-size: 0.8rem;
+    line-height: 4rem;
+}
 
 /* ---------- index.html specific rules -------------- */
 .me-img {
